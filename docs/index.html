@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zomato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .topright{
+            position: absolute;
+            top: 64px;
+            right: 128px;
+            font-size: 18px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .column {
+            
+            float: left;
+            width: 25.33%;
+            padding: 2px;
+         }
+         .column2 {
+            
+            float: left;
+            width: 15.33%;
+            padding: 2px;
+         }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table; 
+        }
+        .SearchBar {
+            float: right;
+            padding: 10px;
+            margin: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+        }
+        
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+        }
+        
+        p {
+            color: #333;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Zomato</h1>
+        <p><center>Find the best restaurants near you!</center></p>
+        <p><center>Order food online from the best restaurants!</center></p>
+
+        
+    </div>
+    <div class="topright">
+        <a href="index.html">sign in</a>
+        <a href="index.html">sign up</a>
+    </div>
+    <div class="row">
+    
+        <div class="column">
+          <center>
+          <img src="dining.png" width="250">
+          <figcaption>Dining Out</figcaption>
+        </center>
+        </div>
+        <div class="column">
+          <center>  
+          <a href="page02.html"><img src="delivery.png" width="250" height="200"></a>
+          <a href="page02.html"><figcaption>Delivery</figcaption></a>
+        </center>
+        </div>
+        <div class="column">
+          <center>
+          <img src="nightlife.png" width="250" height="200">
+          <figcaption>Nightlife</figcaption>
+        </center>  
+        </div>
+        
+    </div>
+
+    <div class="topnav">
+       <center>
+            <a class="SearchBar"></a>
+            <input type="text" placeholder="Search for restuarent, cuisine or a dish" size="100">
+        </center>
+    </div>
+
+    <div class="row">
+        <div class="column2">
+            <center>
+            <a href="page02.html"><img src="biryani.png" width="150"></a>
+            <a href="page02.html"><figcaption>Biryani</figcaption></a>
+            </center>
+        </div>
+        <div class="column2">
+            <center>
+            <a href="page02.html"><img src="chicken.png" width="150"></a>
+            <a href="page02.html"><figcaption>Chicken</figcaption></a>
+        </center>
+        </div>
+        <div class="column2">
+            <center>           
+            <a href="page02.html"><img src="pizza.png" width="150"></a>
+            <a href="page02.html"><figcaption>Pizza</figcaption></a>
+        </center> 
+        </div>    
+        <div class="column2">
+            <center>
+            <a href="page02.html"><img src="burger.png" width="150"></a>
+            <a href="page02.html"><figcaption>Burger</figcaption></a>
+            </center>
+        </div>
+        <div class="column2">
+            <center>
+            <a href="page02.html"><img src="noodles.png" width="150"></a>
+            <a href="page02.html"><figcaption>Noodles</figcaption></a>
+            </center>
+        </div>
+        
+
+    </div>
+    
+    
+</body>
+
+</html>
